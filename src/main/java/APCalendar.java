@@ -57,6 +57,6 @@ public class APCalendar
   {
     /* to be implemented in part (b) */
     int days = dayOfYear(month, day, year) - 1;
-    return (firstDayOfYear(year) + days) % 7);
+    return (firstDayOfYear(year) + days) % 7;
   }
 }
